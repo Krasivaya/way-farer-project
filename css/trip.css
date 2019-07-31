@@ -1,0 +1,55 @@
+.trip-container {
+    display: flex;
+    height: 100%;
+    background-image: url(../assets/trip/a1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trip-second-container {
+    margin: 100px 50px 20px 50px;
+    width: 100%;
+    background-color: rgba(14, 105, 115, 0.829);
+    border-radius: 5px;
+    padding: 20px;
+}
+.trip-sidebar {
+    background-color: #C1D0D9;
+    width: 20%;
+    height: 100%;
+    float: left;
+    color: rgb(7, 53, 58);
+}
+.trip-content {
+    background-color: rgba(193, 208, 217, 0.185);
+    float: left;
+    width: 75%;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+}
+.trip1 {
+    width: 30%;
+    height: 50%;
+    margin: 20px;
+}
+.trip1 .tripheading {
+    padding-left: 10px;
+    background-color: #C1D0D9;
+    border-radius: 10px;
+    color: rgb(7, 53, 58);
+}
+.trip1 p {
+    padding-left: 50px;
+}
+.trip1 button {
+    background-color: #BF214B;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}

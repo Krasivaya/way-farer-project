@@ -1,0 +1,34 @@
+.signup_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.signup_form {
+    width: 50%;
+    height: 400px;
+    background-color: rgba(14, 105, 115, 0.829);
+    text-align: center;
+    padding-top: 50px;
+}
+#txt {
+    margin-bottom: 30px;
+    width: 40%;
+    font-size: 15px;
+    padding-left: 5px;
+}
+#submit {
+    border: none;
+    border-radius: 5px;
+    background-color: #BF214B;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
