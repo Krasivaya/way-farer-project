@@ -1,0 +1,118 @@
+.home {
+    display: flex;
+    height: 100%;
+    background-image: url(../assets/homepage/a3.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trip-box {
+    background-color: rgba(14, 105, 115, 0.829);
+    height: 250px;
+    width: 70%;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.trip-box {
+    padding-left: 20px;
+}
+.trip-box h1 {
+    text-align: center;
+}
+.search-box input, .search-box input::placeholder {
+    color: #fff;
+    background-color: rgba(14, 105, 115, 0.342);
+}
+.search-box input{
+    border: 1px solid #C1D0D9;
+    border-radius: 5px;    
+    padding: 10px;
+    cursor: pointer;
+}
+.search-box  input::placeholder {
+    height: 50px;
+}
+.search-box select {
+    color: #fff;
+    background-color: rgba(14, 105, 115, 0.342);
+    border: 1px solid #C1D0D9;
+    border-radius: 5px;    
+    padding: 10px;
+    cursor: pointer;
+}
+.search-box button {
+    background-color: #BF214B;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:focus, input:focus, select:focus {
+    outline: 0;
+}
+.company {
+    height: 300px;
+    background-color: #C1D0D9;
+    color: rgb(7, 53, 58);
+    padding-top: 50px;
+}
+.company-heading {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.company-div {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.company-image{
+    width: 200px;
+    height: 100px;
+}
+footer {
+    background-color: rgb(7, 53, 58);
+    height: 200px;
+}
+footer .footer-left {
+    float: left;
+    padding: 20px 100px ;
+}
+footer .footer-left a {
+    color: #fff;
+    text-decoration: none;
+    display: block; 
+    padding-top: 10px;
+}
+footer .footer-right {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+footer .footer-sign {   
+    text-align: right;
+    padding: 20px 100px ;
+}
+footer .footer-sign a {
+    color: #fff;
+    text-decoration: none;
+    display: block; 
+    padding-top: 10px;
+}
+footer .footer-links a img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+footer .footer-links{
+    float: right;
+    display: inline;
+    padding: 20px 100px ;
+}
