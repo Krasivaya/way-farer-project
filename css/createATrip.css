@@ -1,7 +1,13 @@
-.createATrip_container {
+.createATrip-container {
+    height: 100%;
+    background-image: url(../assets/homepage/a3.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.createATrip-second-container {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 .createATrip_form {
     width: 50%;
