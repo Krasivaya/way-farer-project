@@ -1,4 +1,10 @@
-.signup_container {
+.signup-container {
+    height: 100%;
+    background-image: url(../assets/homepage/a3.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.signup-second-container {
     display: flex;
     justify-content: center;
     padding-top: 100px;

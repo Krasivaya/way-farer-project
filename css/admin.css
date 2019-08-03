@@ -1,0 +1,10 @@
+.admin-container {
+    display: flex;
+    height: 100%;
+    background-image: url(../assets/homepage/a3.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.admin-second-container .trip1 button {
+    margin-left: 80px;
+}

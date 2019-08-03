@@ -8,6 +8,7 @@
 .trip-second-container {
     margin: 100px 50px 20px 50px;
     width: 100%;
+    /* height: 100%; */
     background-color: rgba(14, 105, 115, 0.829);
     border-radius: 5px;
     padding: 20px;
@@ -18,6 +19,17 @@
     height: 100%;
     float: left;
     color: rgb(7, 53, 58);
+    padding-left: 20px;
+}
+.trip-province a, .trip-bus-company a, .trip-country a {
+    text-decoration: none;
+    display: block;
+    color: rgb(7, 53, 58);
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.trip-content-row1, .trip-content-row2{
+    display: flex;
 }
 .trip-content {
     background-color: rgba(193, 208, 217, 0.185);
@@ -25,7 +37,7 @@
     width: 75%;
     height: 100%;
     margin-left: 20px;
-    display: flex;
+    /* display: flex; */
 }
 .trip1 {
     width: 30%;

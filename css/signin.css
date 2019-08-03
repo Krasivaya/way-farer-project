@@ -1,5 +1,4 @@
-.hsignin-container {
-    display: flex;
+.signin-container {
     height: 100%;
     background-image: url(../assets/homepage/a3.png); 
     background-size: cover;
