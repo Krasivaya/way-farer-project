@@ -36,16 +36,16 @@
     background-color: rgba(14, 105, 115, 0.342);
     border: 1px solid #C1D0D9;
     border-radius: 5px;    
-    padding: 10px;
+    padding: 12px;
     cursor: pointer;
 }
 .search-box button {
-    background-color: #BF214B;
+    background-color: #ba6509;
     border: none;
     border-radius: 5px;
     color: #fff;
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-left: 40%;
     margin-top: 20px;
@@ -58,7 +58,7 @@ button:focus, input:focus, select:focus {
     height: 300px;
     background-color: #C1D0D9;
     color: rgb(7, 53, 58);
-    padding-top: 50px;
+    padding-top: 5px;
 }
 .company-heading {
     text-align: center;
@@ -66,7 +66,7 @@ button:focus, input:focus, select:focus {
     text-transform: uppercase;
 }
 .company-div {
-    padding-top: 50px;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
