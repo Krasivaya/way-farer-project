@@ -51,6 +51,11 @@ nav {
 }
 footer {
     background-color: rgb(7, 53, 58);
+    height: 80px;
+}
+footer .footer-left {
+    float: left;
+    padding: 30px 100px ;
     height: 200px;
 }
 footer .footer-left {
@@ -60,6 +65,9 @@ footer .footer-left {
 footer .footer-left a {
     color: #fff;
     text-decoration: none;
+    display: inline; 
+    padding-top: 10px;
+    padding-right: 50px;
     display: block; 
     padding-top: 10px;
 }
@@ -75,6 +83,9 @@ footer .footer-sign {
 footer .footer-sign a {
     color: #fff;
     text-decoration: none;
+    display: inline; 
+    padding-top: 20px;
+    padding-left: 50px;
     display: block; 
     padding-top: 10px;
 }
@@ -88,5 +99,7 @@ footer .footer-links a img{
 footer .footer-links {
     /* display: inline; */
     float: right;
+    padding: 10px 100px 5px 100px ;
+
     padding: 20px 100px ;
 }
