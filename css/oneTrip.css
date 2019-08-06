@@ -1,0 +1,32 @@
+.oneTrip-container {
+    display: flex;
+    height: 100%;
+    background-image: url(../assets/trip/a1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.oneTrip-second-container {
+    margin: 100px 50px 20px 50px;
+    width: 100%;
+    /* height: 100%; */
+    background-color: rgba(14, 105, 115, 0.829);
+    border-radius: 5px;
+    padding: 20px;
+}
+.oneTrip {
+    padding-left: 100px;
+}
+.oneTrip h1{
+    font-size: 40px;
+}
+.oneTrip button {
+    background-color: #ba6509;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
