@@ -45,3 +45,5 @@ typings/
 .next
 # Coveralls file
 .coveralls.yml
+
+package-lock.json
